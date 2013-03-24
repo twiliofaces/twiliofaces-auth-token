@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core" lang="en">
+<f:view contentType="text/html">
+
+	<h:head>
+		<meta charset="utf-8" />
+		<title>Login - Twilio</title>
+	</h:head>
+	<h:body>
+
+		<form method="post" action="j_security_check">
+			<h1>Login</h1>
+
+			<label for="username">Username:</label> <br /> 
+			<input type="text" name="j_username" value="" /> <br /> 
+				
+			<label for="password">Password:</label><br />
+			 <input type="password" name="j_password" value="" /><br /><br />
+			<button class="button btn btn-warning btn-large">Login</button>
+		</form>
+	<b>prima di effettuare il login chiama con il tuo cellulare il numero: +39 090 910 0010</b><br/>
+	</h:body>
+</f:view>
+</html>
