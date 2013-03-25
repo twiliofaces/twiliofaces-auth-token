@@ -1,4 +1,4 @@
 twiliofaces-auth-token
 ======================
 
-twiliofaces-auth-token
+in this example, we 
